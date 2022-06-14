@@ -21,7 +21,7 @@ public class StartupCommon {
 
     @SubscribeEvent
     public static void onEntityTypeRegistration(RegistryEvent.Register<EntityType<?>> entityTypeRegisterEvent) {
-        simpleRocketEntityType = EntityType.Builder<SimpleRocketEntity>of<SimpleRocketEntity::new, MobCategory.MISC);
+//        simpleRocketEntityType = EntityType.Builder<SimpleRocketEntity>of<SimpleRocketEntity::new, MobCategory.MISC);
     }
 
     private static void ItemRegistration(Item item, String S, final RegistryEvent.Register<Item> itemRegisterEvent){
